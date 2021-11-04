@@ -21,3 +21,5 @@ A simple social media application with users, posts, likes and comments - develo
    - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
 4. Open [localhost:3000](http://localhost:3000/) in the browser
 ---- "# mern-social" 
+
+App created in conjunction with *Full Stack React Projects, 2nd edition
