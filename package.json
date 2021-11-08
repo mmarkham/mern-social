@@ -18,7 +18,7 @@
   "homepage": "https://github.com/mmarkham/mern-social",
   "main": "./dist/server.generated.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
+    "heroku-prebuild": "npm install --production=false",
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
     "start": "NODE_ENV=production node ./dist/server.generated.js"
